@@ -1,3 +1,65 @@
+/* https://cdn.plyr.io/3.7.8/plyr.css */
+/*Color
+light gray- rgba(222, 222, 232, 1)
+light blue- rgba(131, 193, 208, 1)
+midnight blue- rgba(7, 32, 72, 1)
+dark gray- rgba(58, 57, 62, 1)
+gray blue- rgba(54, 87, 118, 1)
+dusty purple- rgba(134, 101, 125, 1)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+:root {
+      /* main UI color */
+    --plyr-color-main: rgba(134, 101, 125, 1);
+    /* audio controls background */
+    --plyr-video-controls-background: rgba(131, 193, 208, .30);
+    /* audio controls color */
+    --plyr-video-control-color: rgba(54, 87, 118, 1);
+}
+
 body {
-    background: rgb(89, 255, 0);
+   margin: 0;
+  background: rgba(7, 32, 72, 1);
+  font-family: "Jim Nightshade", cursive;
+}
+
+main h1 {
+ font-size: 70px; 
+  text-align: center;
+  color: rgba(54, 87, 118, 1);
+}
+
+main p {
+  color: rgba(131, 193, 208, 1);
+}
+
+article h3{
+   font-size: 40px; 
+  margin-left: 40px;
+  color: rgba(54, 87, 118, 1);
+}
+
+article figure img{
+  border: 5px rgba(54, 87, 118, 1) solid;
+  border-radius: 10px;
+  margin: -2px;
+}
+ 
+figcaption{
+  font-size: 25px;
+  color: rgba(131, 193, 208, 1);
+}
+
+footer a{
+  color: rgba(222, 222, 232, 1);
+  font-size: 30px;
+}
+
+footer a:hover{
+  background: rgba(222, 222, 232, 1);
+  color: rgba(7, 32, 72, 1);
+}
+/* diagnostic */
+#player {
+
 }
